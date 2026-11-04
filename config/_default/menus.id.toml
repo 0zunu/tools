@@ -1,0 +1,75 @@
+# -- Main Menu --
+# The main menu is displayed in the header at the top of the page.
+# Acceptable parameters are name, pageRef, page, url, title, weight.
+#
+# The simplest menu configuration is to provide:
+#   name = The name to be displayed for this menu link
+#   pageRef = The identifier of the page or section to link to
+#
+# By default the menu is ordered alphabetically. This can be
+# overridden by providing a weight value. The menu will then be
+# ordered by weight from lowest to highest.
+
+[[main]]
+  pre = "user-account"
+  name = "Home"
+  weight = 10
+  url = "https://www.azriel.id"
+
+[[main]]
+  pre = "tools"
+  name = "Alat"
+  weight = 20
+
+[[main]]
+  pre = "notebook"
+  name = "Kompres Gambar"
+  parent = "Alat"
+  weight = 30
+  pageRef = "image-compressor"
+
+# [[main]]
+#   pre = "newspaper-clipping"
+#   name = "Blog"
+#   weight = 40
+#   pageRef = "posts"
+
+# =====================Penutup======================
+
+[[main]]
+  identifier = "github"
+  pre = "github"
+  url = "https://github.com/0zunu"
+  weight = 65
+
+[[main]]
+  identifier = "twitter"
+  pre = "twitter"
+  url = "https://x.com/0zunu_"
+  weight = 70
+
+# -- Footer Menu --
+# The footer menu is displayed at the bottom of the page, just before
+# the copyright notice. Configure as per the main menu above.
+
+
+# [[footer]]
+#   name = "Tags"
+#   pageRef = "tags"
+#   weight = 10
+
+# [[footer]]
+#   name = "Categories"
+#   pageRef = "categories"
+#   weight = 20
+
+# [[footer]]
+#   name = "Authors"
+#   pageRef = "authors"
+#   weight = 30
+
+# [[footer]]
+#   name = ""
+#   pre = "rss"
+#   url = "index.xml"
+#   weight = 40
