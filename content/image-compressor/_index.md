@@ -1,5 +1,6 @@
 ---
 title: Image Compressor
+draft: false
 description: Reduce image file sizes right in your browser. Your files stay on your device.
 layout: "simple"
 layoutBackgroundHeaderSpace: false

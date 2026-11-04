@@ -1,5 +1,6 @@
 ---
 title: Kompres Gambar
+draft: false
 description: Kecilkan ukuran gambar langsung di browser. File tetap berada di perangkat kamu.
 layout: "simple"
 layoutBackgroundHeaderSpace: false
