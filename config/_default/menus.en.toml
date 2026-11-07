@@ -10,11 +10,11 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
-[[main]]
-  pre = "user-account"
-  name = "Home"
-  weight = 10
-  url = "https://www.azriel.id"
+# [[main]]
+#   pre = "home"
+#   name = "Home"
+#   weight = 10
+#   url = "https://www.azriel.id"
 
 [[main]]
   pre = "tools"
@@ -28,11 +28,11 @@
   weight = 30
   pageRef = "image-compressor"
 
-# [[main]]
-#   pre = "newspaper-clipping"
-#   name = "Blogs"
-#   weight = 40
-#   pageRef = "posts"
+[[main]]
+  pre = "newspaper-clipping"
+  name = "Articles"
+  weight = 40
+  url = "https://www.azriel.id/articles"
 
 # =====================Penutup======================
 

@@ -10,11 +10,11 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
-[[main]]
-  pre = "user-account"
-  name = "Home"
-  weight = 10
-  url = "https://www.azriel.id"
+# [[main]]
+#   pre = "home"
+#   name = "Home"
+#   weight = 10
+#   url = "https://www.azriel.id"
 
 [[main]]
   pre = "tools"
@@ -28,25 +28,25 @@
   weight = 30
   pageRef = "image-compressor"
 
-# [[main]]
-#   pre = "newspaper-clipping"
-#   name = "Blog"
-#   weight = 40
-#   pageRef = "posts"
+[[main]]
+  pre = "newspaper-clipping"
+  name = "Artikel"
+  weight = 40
+  url = "https://www.azriel.id/articles"
 
 # =====================Penutup======================
 
-[[main]]
-  identifier = "github"
-  pre = "github"
-  url = "https://github.com/0zunu"
-  weight = 65
+# [[main]]
+#   identifier = "github"
+#   pre = "github"
+#   url = "https://github.com/0zunu"
+#   weight = 65
 
-[[main]]
-  identifier = "twitter"
-  pre = "twitter"
-  url = "https://x.com/0zunu_"
-  weight = 70
+# [[main]]
+#   identifier = "twitter"
+#   pre = "twitter"
+#   url = "https://x.com/0zunu_"
+#   weight = 70
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
